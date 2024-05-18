@@ -45,11 +45,7 @@
         li a:hover {
             
                 
-           background-image: url(Img/download.jpeg);
-           background-repeat: no-repeat;
-           background-position: center;
-         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+         backgro
         
         }
    video{
@@ -73,22 +69,22 @@
 
  }
  .btn{
-    border:2px solid #000000;
+     border: 2px solid #000000;
     font-weight: bolder;
     font-size: 25px;
     border-radius: 7px;
-    background-image: url(Img/download.jpeg);
+    background-image: url('download.jpeg');
     background-repeat: no-repeat;
     background-position: center;
-  -webkit-background-clip: text;
- -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Porscha';
+    color: transparent;
     
  }
  .btn:hover{
          
-   cursor:  pointer;
+ cursor: pointer;
     color: aliceblue;
-    font-family: porscha;
     transition: all 0.7s ease-in-out;
  }
 #about{
@@ -159,6 +155,8 @@ button {
 button:hover {
     background-color: #000000;
 }
+
+
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -176,47 +174,45 @@ button:hover {
     max-width: 100%;
     height: auto;
 }
-.footer .box-container{
+
+.footer .box-container {
     display: flex;
     border-top: .1rem solid rgba(0,0,0,.1);
-    gap:1.5rem;
+    gap: 1.5rem;
 }
 
-.footer .box-container .box{
-    flex:1 1 25rem;
+.footer .box-container .box {
+    flex: 1 1 25rem;
 }
 
-.footer .box-container .box h3{
-    color:#333;
+.footer .box-container .box h3 {
+    color: #333;
     font-size: 2.5rem;
-    padding:1rem ;
-
+    padding: 1rem;
 }
 
-.footer .box-container .box a{
+.footer .box-container .box a {
     display: block;
-    color:#000000;
+    color: #000000;
     font-size: 1.5rem;
-    padding:1rem ;
+    padding: 1rem;
 }
 
-.footer .box-container .box a:hover{
-    color:rgb(192, 192, 192);
+.footer .box-container .box a:hover {
+    color: rgb(192, 192, 192);
     text-decoration: underline;
 }
 
-
-.footer .credit{
+.footer .credit {
     text-align: center;
-    padding:1.5rem;
+    padding: 1.5rem;
     margin-top: 1.5rem;
     padding-top: 2.5rem;
     font-size: 2rem;
-    color:#000000;
-    
+    color: #000000;
     padding-bottom: 9rem;
 }
 
-.footer .credit span{
-    color:rgb(143, 252, 179);
+.footer .credit span {
+    color: rgb(143, 252, 179);
 }
