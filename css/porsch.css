@@ -45,7 +45,7 @@
         li a:hover {
             
                 
-           background-image: url(download.jpeg);
+           background-image: url(Img/download.jpeg);
            background-repeat: no-repeat;
            background-position: center;
          -webkit-background-clip: text;
@@ -77,7 +77,7 @@
     font-weight: bolder;
     font-size: 25px;
     border-radius: 7px;
-    background-image: url(download.jpeg);
+    background-image: url(Img/download.jpeg);
     background-repeat: no-repeat;
     background-position: center;
   -webkit-background-clip: text;
